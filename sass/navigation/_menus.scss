@@ -1,0 +1,118 @@
+.main-menu-nav {
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 7%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media screen and (max-width:880px) {
+        z-index: 2;
+        height: 70px;
+        top: 0%;
+        border-bottom: solid #FFF 3px;
+        background-color: rgb(0, 0, 0);
+        
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+    }
+}
+/*
+@media screen and (max-width:880px) {
+        .main-menu-nav-mobile {
+            height: 120px;
+        }
+    } */
+
+.menu-nav-container {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    @media screen and (max-width:1560px) {
+        width: 80%;
+    }
+    @media screen and (max-width:992px) {
+        width: 92%;
+    }
+    @media screen and (max-width:880px) {
+        display: none;
+    }
+}
+
+.nav-button {
+    background-color: #FF6633;
+    border: solid black 3px;
+    width: 8em;
+    height: 4.3em;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: .25s;
+    overflow: hidden;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media screen and (max-width:1200px) {
+        width: 7em;
+        height: 4.1em;
+    }
+
+}
+
+/* parallax effect */
+
+.main-menu-nav-scrolled {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    border-bottom: solid #FF6633 3px;
+    z-index: 2;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-button-scrolled {
+    width: 8em;
+    height: 4.3em;
+    color: #FF6633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    @media screen and (max-width:1200px) {
+        width: 7em;
+        height: 4.1em;
+    }
+
+}
+
+.menu-nav-container-scrolled {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    @media screen and (max-width:1560px) {
+        width: 80%;
+    }
+    @media screen and (max-width:992px) {
+        width: 92%;
+    }
+    @media screen and (max-width:880px) {
+        display: none;
+    }
+}
+

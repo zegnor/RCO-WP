@@ -1,0 +1,64 @@
+.site-footer {
+    background: #000;
+    height: 350px;
+    margin-top: 150px;
+    
+    border-top: solid 3px;
+    
+    @media only screen and (max-width: 992px) {
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
+
+.footer-text-contaienr {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    
+    @media only screen and (max-width: 992px) {
+        width: 100%;
+    }
+}
+
+.footer-text {
+    text-align: left;
+    
+    @media only screen and (max-width: 992px) {
+        text-align: center;
+    }
+}
+
+.footer-text-link {
+    text-align: left;
+    width: 100%;
+    
+    @media only screen and (max-width: 992px) {
+        text-align: center;
+    }
+}
+
+.map-link {
+    color: #FF6633;
+    font-size: 1.2em;
+    text-decoration: underline;
+    
+    &:hover {
+        color: #FFF !important;
+    }
+}
+
+.rc-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.sm-icon {
+    width: 100px;
+    height: 100px;
+    padding: 0 .2em 0 .2em;
+}
+
+.sm-dec {
+    text-decoration: none !important;
+}

@@ -1,0 +1,310 @@
+/* background for pages */
+
+.about-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/about.jpg");
+}
+
+.instagram-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/instagram.jpg");
+}
+
+.rules-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/event.jpg");
+}
+
+.staff-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/staff.jpg");
+}
+
+.event-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/event.jpg");
+}
+
+.donation-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/donation.jpg");
+}
+
+.contact-page {
+    background-image: url("http://localhost/wp-content/uploads/2018/04/contact.jpg");
+}
+
+.section-page {
+    border-bottom: solid 3px #FF6633;
+    width: 100%;
+    height: 750px;
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    
+    @media screen and (max-width: 880px) {
+        height: auto;
+    }
+}
+
+#instagram-section-page {
+    height: auto !important;
+}
+
+/* page content */
+
+.page-container {
+    height: 100%;
+    width: 50%;
+    
+    @media screen and (max-width: 880px) {
+        height: 0%;
+        width: 0%;
+    }
+}
+
+.page-container-content {
+    background: #FFF;
+    
+    @media screen and (max-width: 880px) {
+        z-index: 1;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+}
+
+.page-container-black {
+    width: 100%;
+    height: 100%;
+    
+    @media screen and (max-width: 880px) {
+        z-index: 1;
+        padding-bottom: 5%;
+    }
+}
+
+/* about us css */
+
+#global-button-click {
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 10px 20px 10px 20px;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.about-disable {
+    display: none;
+}
+
+.p-about {
+    width: 80%;
+    text-align: left;
+    
+    @media screen and (max-width: 1150px) {
+        font-size: 1.1em !important;
+    }
+}
+
+#about-headline {
+    width: 80%;
+    text-align: left;
+}
+
+
+
+
+/* Instagram css */
+
+
+.instagram-container-content-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    
+}
+
+
+/* our rules css */
+
+.p-rules {
+    text-align: left;
+    width: 90%;
+    padding-bottom: 1.5%;
+    
+    @media screen and (max-width: 1000px) {
+        font-size: 1em !important;
+    }
+}
+
+.rules-list-ul {
+    list-style: disc;
+    color: #FF6633;
+}
+
+#rules-page-id {
+    height: auto !important;
+}
+
+
+
+/* Staff css */
+
+/*.staff-image {
+    width: 223px;
+    height: 223px;
+    border-radius: 300px;
+    border: solid 2px;
+    margin-top: 3%;
+    
+    background-position: center;
+    background-size: contain;
+} */
+
+.staff-bootstrap-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-container {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.staff-page {
+    height: auto !important;
+    padding-bottom: 10%;
+    
+    @media screen and (max-width: 1515px) {
+       padding-bottom: 0%; 
+    }
+}
+
+.gallery {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-caption-text {
+    font-family: $font__anton;
+    font-size: 2em;
+}
+
+.attachment-medium {
+    border-radius: 200px;
+}
+
+.widget_media_gallery {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 3em .5em 0 .5em;
+}
+
+
+
+/* events css */
+
+.facebook-link-mobile {
+    display: none;
+    font-family: $font__anton;
+    
+    &:hover {
+        color: black !important;
+    }
+    
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
+}
+
+iframe {
+    border-width: 3px;
+    border: solid !important;
+}
+
+#facebook-widget-area {
+    display: block;
+    
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+
+
+/* Donation css */
+
+.donation-container {
+    width: 100%;
+    height: 100%;
+}
+
+.donation-why {
+    width: 45%;
+    height: 100%;
+}
+
+.donation-image {
+    width: 100%;
+    height: auto;
+}
+
+.why-donate-p {
+    width: 90%;
+    text-align: left;
+}
+
+.donation-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.donation-bootstrap-container-right {
+    @media screen and (max-width: 880px) {
+        display: none;
+    }
+}
+
+
+
+/* contact us css */
+
+.contact-container {
+    margin-top: 10%;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container-contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container-contact {
+    height: 90%;
+    width: 90%;
+    background-image: url("http://localhost/wp-content/uploads/2018/04/RCOfyn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    border: 2px solid;
+}
